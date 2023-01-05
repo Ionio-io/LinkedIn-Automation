@@ -12,6 +12,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 from functions.login import linkedin_login
+from functions.post import make_post
 
 
 def load_cookies(driver, path):
@@ -38,6 +39,8 @@ with open('cookies.json', 'r') as f:
 
 
 linkedin_login(driver)
+
+make_post(driver, "Some post text")
 
 
 time.sleep(30)
