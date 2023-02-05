@@ -42,12 +42,12 @@ with open('cookies.json', 'r') as f:
 
 linkedin_login(driver)
 
-# make_post(driver, "This is an LinkedIn post")
+make_post(driver, "This is an LinkedIn post")
 
-# like_post(driver, "https://www.linkedin.com/feed/update/urn:li:activity:7017906018286252034/")
+like_post(driver, "https://www.linkedin.com/feed/update/urn:li:activity:7017906018286252034/")
 
 
-send_message(driver, "https://www.linkedin.com/in/rohan-sawant-code/", "Autmated message")
+send_message(driver, "https://www.linkedin.com/in/rohan-sawant-code/", "Automated message")
 
 time.sleep(30)
 

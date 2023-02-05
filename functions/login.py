@@ -3,7 +3,7 @@ import time, json
 from selenium.webdriver.common.by import By
 
 EMAIL = "pranaveatclub@gmail.com"
-PASSWORD = "pranaveatclub@gmail.com123"
+PASSWORD = "pranaveatclub@gmail.com123" #I changed the password, lol
 
 def linkedin_login(driver):
 
