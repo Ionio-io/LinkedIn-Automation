@@ -2,8 +2,8 @@ import time, json
 
 from selenium.webdriver.common.by import By
 
-EMAIL = "pranaveatclub@gmail.com"
-PASSWORD = "pranaveatclub@gmail.com123" #I changed the password, lol
+EMAIL = "youremail@gmail.com"
+PASSWORD = "yourpassword"
 
 def linkedin_login(driver):
 
